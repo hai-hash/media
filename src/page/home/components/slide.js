@@ -15,7 +15,7 @@ const Slide = () =>{
         if(arr.length > 0){
             result = arr.map((slide,index) =>{
                 return (
-                    <div className={styles.item_slide}>
+                    <div className={styles.item_slide} key={index}>
                     <img src="https://toigingiuvedep.vn/wp-content/uploads/2021/04/hinh-anh-anime-girl-toc-xanh-duong-xinh-dep-cho-desktop-may-tinh.jpg" alt=""/>
                     <div className={styles.title_slide}>
                         <div className={styles.name_slide}>Đấu phá thương khung</div>

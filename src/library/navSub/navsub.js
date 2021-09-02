@@ -15,7 +15,7 @@ const NavSub = () =>{
         if(arr.length > 0){
             result = arr.map((slide,index) =>{
                 return (
-                    <NavItem/>
+                    <NavItem key={index}/>
                 )
             })
         }
@@ -24,7 +24,7 @@ const NavSub = () =>{
             if(arr1.length > 0){
                 result = arr1.map((slide,index) =>{
                     return (
-                        <NavItem/>
+                        <NavItem key={index}/>
                     )
                 })
             }

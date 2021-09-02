@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+
 import Slide from './components/slide';
 import SeriesMoved from './components/seriesmoved';
 import OodMoved from './components/oodmoved';

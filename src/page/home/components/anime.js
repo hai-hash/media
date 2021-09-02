@@ -9,7 +9,7 @@ const Anime = () =>{
         if(arr.length > 0){
             result = arr.map((slide,index) =>{
                 return (
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"  key={index}>
+                    <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3"  key={index}>
                       <ItemFirm/>
                     </div>
                 )
@@ -20,7 +20,7 @@ const Anime = () =>{
     return(
         <>
         <h1 className={styles.title_series}><AiFillVideoCamera className={styles.icon_series}/>PHIM HOẠT HÌNH ANIME</h1>
-        <div class="row">
+        <div className="row">
         {display()}
         </div>
         
